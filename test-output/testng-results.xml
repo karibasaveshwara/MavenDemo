@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="41349" started-at="2019-08-17T19:05:30Z" finished-at="2019-08-17T19:06:12Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="41349" started-at="2019-08-17T19:05:30Z" finished-at="2019-08-17T19:06:12Z">
+      <class name="demo.GetGooglePageTitle">
+        <test-method status="PASS" signature="testGetPageTitle()[pri:0, instance:demo.GetGooglePageTitle@42d80b78]" name="testGetPageTitle" duration-ms="16969" started-at="2019-08-17T19:05:55Z" finished-at="2019-08-17T19:06:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetPageTitle -->
+      </class> <!-- demo.GetGooglePageTitle -->
+      <class name="demo.GetFacebookPageTitle">
+        <test-method status="PASS" signature="testGetFacebookPageTitle()[pri:0, instance:demo.GetFacebookPageTitle@66a3ffec]" name="testGetFacebookPageTitle" duration-ms="24353" started-at="2019-08-17T19:05:30Z" finished-at="2019-08-17T19:05:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetFacebookPageTitle -->
+      </class> <!-- demo.GetFacebookPageTitle -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
