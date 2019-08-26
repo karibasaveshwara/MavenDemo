@@ -2,18 +2,18 @@
 <testng-results skipped="0" failed="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="20217" started-at="2019-08-18T11:01:55Z" finished-at="2019-08-18T11:02:15Z">
+  <suite name="Suite" duration-ms="18995" started-at="2019-08-26T04:44:04Z" finished-at="2019-08-26T04:44:23Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="20217" started-at="2019-08-18T11:01:55Z" finished-at="2019-08-18T11:02:15Z">
+    <test name="Test" duration-ms="18995" started-at="2019-08-26T04:44:04Z" finished-at="2019-08-26T04:44:23Z">
       <class name="demo.GetGooglePageTitle">
-        <test-method status="PASS" signature="testGetPageTitle()[pri:0, instance:demo.GetGooglePageTitle@327471b5]" name="testGetPageTitle" duration-ms="6778" started-at="2019-08-18T16:32:08Z" finished-at="2019-08-18T16:32:15Z">
+        <test-method status="PASS" signature="testGetPageTitle()[pri:0, instance:demo.GetGooglePageTitle@327471b5]" name="testGetPageTitle" duration-ms="4165" started-at="2019-08-26T10:14:19Z" finished-at="2019-08-26T10:14:23Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testGetPageTitle -->
       </class> <!-- demo.GetGooglePageTitle -->
       <class name="demo.GetFacebookPageTitle">
-        <test-method status="PASS" signature="testGetFacebookPageTitle()[pri:0, instance:demo.GetFacebookPageTitle@180bc464]" name="testGetFacebookPageTitle" duration-ms="13416" started-at="2019-08-18T16:31:55Z" finished-at="2019-08-18T16:32:08Z">
+        <test-method status="PASS" signature="testGetFacebookPageTitle()[pri:0, instance:demo.GetFacebookPageTitle@180bc464]" name="testGetFacebookPageTitle" duration-ms="14815" started-at="2019-08-26T10:14:04Z" finished-at="2019-08-26T10:14:19Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testGetFacebookPageTitle -->
