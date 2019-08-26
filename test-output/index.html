@@ -91,7 +91,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">2 methods,   2 passed</span>
+                    <span class="method-stats">3 methods,   3 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -103,6 +103,11 @@
                       <span>
                         <img width="3%" src="passed.png"/>
                         <a href="#" class="method navigator-link" panel-name="suite-Suite" title="demo.GetFacebookPageTitle" hash-for-method="testGetFacebookPageTitle">testGetFacebookPageTitle</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="demo.GetGmailPageTitle" hash-for-method="testGetGmailPageTitle">testGetGmailPageTitle</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -140,6 +145,21 @@
           <div class="suite-Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
+              <span class="class-name">demo.GetGmailPageTitle</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testGetGmailPageTitle">
+                  </a> <!-- testGetGmailPageTitle -->
+                  <span class="method-name">testGetGmailPageTitle</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
               <span class="class-name">demo.GetFacebookPageTitle</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
@@ -165,6 +185,7 @@
   &lt;test thread-count=&quot;5&quot; name=&quot;Test&quot;&gt;
     &lt;classes&gt;
       &lt;class name=&quot;demo.GetFacebookPageTitle&quot;/&gt;
+      &lt;class name=&quot;demo.GetGmailPageTitle&quot;/&gt;
       &lt;class name=&quot;demo.GetGooglePageTitle&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Test --&gt;
@@ -179,7 +200,7 @@
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">Test (2 classes)</span>
+                <span class="test-name">Test (3 classes)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -205,20 +226,24 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(2);
+data.addRows(3);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'testGetFacebookPageTitle')
 data.setCell(0, 2, 'demo.GetFacebookPageTitle')
-data.setCell(0, 3, 24353);
+data.setCell(0, 3, 15266);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'testGetPageTitle')
-data.setCell(1, 2, 'demo.GetGooglePageTitle')
-data.setCell(1, 3, 16969);
+data.setCell(1, 1, 'testGetGmailPageTitle')
+data.setCell(1, 2, 'demo.GetGmailPageTitle')
+data.setCell(1, 3, 6773);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'testGetPageTitle')
+data.setCell(2, 2, 'demo.GetGooglePageTitle')
+data.setCell(2, 3, 4864);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 41 seconds</span>
+              <span class="suite-total-time">Total running time: 26 seconds</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -251,10 +276,17 @@ return data;
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
+              <div class="chronological-class-name">demo.GetGmailPageTitle</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testGetGmailPageTitle</span>
+                <span class="method-start">15282 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
               <div class="chronological-class-name">demo.GetGooglePageTitle</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">testGetPageTitle</span>
-                <span class="method-start">24358 ms</span>
+                <span class="method-start">22055 ms</span>
               </div> <!-- test-method -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
