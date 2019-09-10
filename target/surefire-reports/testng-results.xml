@@ -1,19 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="2" passed="2">
+<testng-results skipped="0" failed="0" total="3" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="18995" started-at="2019-08-26T04:44:04Z" finished-at="2019-08-26T04:44:23Z">
+  <suite name="Suite" duration-ms="32982" started-at="2019-09-10T04:44:05Z" finished-at="2019-09-10T04:44:38Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="18995" started-at="2019-08-26T04:44:04Z" finished-at="2019-08-26T04:44:23Z">
+    <test name="Test" duration-ms="32982" started-at="2019-09-10T04:44:05Z" finished-at="2019-09-10T04:44:38Z">
       <class name="demo.GetGooglePageTitle">
-        <test-method status="PASS" signature="testGetPageTitle()[pri:0, instance:demo.GetGooglePageTitle@327471b5]" name="testGetPageTitle" duration-ms="4165" started-at="2019-08-26T10:14:19Z" finished-at="2019-08-26T10:14:23Z">
+        <test-method status="PASS" signature="testGetPageTitle()[pri:0, instance:demo.GetGooglePageTitle@4157f54e]" name="testGetPageTitle" duration-ms="7959" started-at="2019-09-10T10:14:30Z" finished-at="2019-09-10T10:14:38Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testGetPageTitle -->
       </class> <!-- demo.GetGooglePageTitle -->
+      <class name="demo.GetGmailPageTitle">
+        <test-method status="PASS" signature="testGetGmailPageTitle()[pri:0, instance:demo.GetGmailPageTitle@90f6bfd]" name="testGetGmailPageTitle" duration-ms="10055" started-at="2019-09-10T10:14:20Z" finished-at="2019-09-10T10:14:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetGmailPageTitle -->
+      </class> <!-- demo.GetGmailPageTitle -->
       <class name="demo.GetFacebookPageTitle">
-        <test-method status="PASS" signature="testGetFacebookPageTitle()[pri:0, instance:demo.GetFacebookPageTitle@180bc464]" name="testGetFacebookPageTitle" duration-ms="14815" started-at="2019-08-26T10:14:04Z" finished-at="2019-08-26T10:14:19Z">
+        <test-method status="PASS" signature="testGetFacebookPageTitle()[pri:0, instance:demo.GetFacebookPageTitle@1324409e]" name="testGetFacebookPageTitle" duration-ms="14945" started-at="2019-09-10T10:14:05Z" finished-at="2019-09-10T10:14:20Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testGetFacebookPageTitle -->
