@@ -3,11 +3,11 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="demo.Test1">
+      <class name="demo.GetFacebookPageTitle">
         <methods>
-          <include name="test"/>
+          <include name="testGetFacebookPageTitle"/>
         </methods>
-      </class> <!-- demo.Test1 -->
+      </class> <!-- demo.GetFacebookPageTitle -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

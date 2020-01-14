@@ -1,29 +1,57 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="37633" started-at="2019-09-10T08:57:52Z" finished-at="2019-09-10T08:58:30Z">
+  <suite name="Default suite" duration-ms="49" started-at="2020-01-08T07:15:05Z" finished-at="2020-01-08T07:15:05Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="37633" started-at="2019-09-10T08:57:52Z" finished-at="2019-09-10T08:58:30Z">
-      <class name="demo.GetGooglePageTitle">
-        <test-method status="PASS" signature="testGetPageTitle()[pri:0, instance:demo.GetGooglePageTitle@1bce4f0a]" name="testGetPageTitle" duration-ms="10171" started-at="2019-09-10T08:58:19Z" finished-at="2019-09-10T08:58:30Z">
+    <test name="Default test" duration-ms="49" started-at="2020-01-08T07:15:05Z" finished-at="2020-01-08T07:15:05Z">
+      <class name="demo.TestngAnnotation">
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:demo.TestngAnnotation@57baeedf]" name="beforeSuite" is-config="true" duration-ms="12" started-at="2020-01-08T07:15:05Z" finished-at="2020-01-08T07:15:05Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testGetPageTitle -->
-      </class> <!-- demo.GetGooglePageTitle -->
-      <class name="demo.GetGmailPageTitle">
-        <test-method status="PASS" signature="testGetGmailPageTitle()[pri:0, instance:demo.GetGmailPageTitle@3bfdc050]" name="testGetGmailPageTitle" duration-ms="12339" started-at="2019-09-10T08:58:07Z" finished-at="2019-09-10T08:58:19Z">
+        </test-method> <!-- beforeSuite -->
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:demo.TestngAnnotation@57baeedf]" name="beforeTest" is-config="true" duration-ms="1" started-at="2020-01-08T07:15:05Z" finished-at="2020-01-08T07:15:05Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testGetGmailPageTitle -->
-      </class> <!-- demo.GetGmailPageTitle -->
-      <class name="demo.GetFacebookPageTitle">
-        <test-method status="PASS" signature="testGetFacebookPageTitle()[pri:0, instance:demo.GetFacebookPageTitle@77caeb3e]" name="testGetFacebookPageTitle" duration-ms="15092" started-at="2019-09-10T08:57:52Z" finished-at="2019-09-10T08:58:07Z">
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:demo.TestngAnnotation@57baeedf]" name="beforeClass" is-config="true" duration-ms="0" started-at="2020-01-08T07:15:05Z" finished-at="2020-01-08T07:15:05Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testGetFacebookPageTitle -->
-      </class> <!-- demo.GetFacebookPageTitle -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="testCase1()[pri:0, instance:demo.TestngAnnotation@57baeedf]" name="testCase1" duration-ms="5" started-at="2020-01-08T07:15:05Z" finished-at="2020-01-08T07:15:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase1 -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:demo.TestngAnnotation@57baeedf]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2020-01-08T07:15:05Z" finished-at="2020-01-08T07:15:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:demo.TestngAnnotation@57baeedf]" name="afterMethod" is-config="true" duration-ms="0" started-at="2020-01-08T07:15:05Z" finished-at="2020-01-08T07:15:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="testCase2()[pri:0, instance:demo.TestngAnnotation@57baeedf]" name="testCase2" duration-ms="2" started-at="2020-01-08T07:15:05Z" finished-at="2020-01-08T07:15:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase2 -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:demo.TestngAnnotation@57baeedf]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2020-01-08T07:15:05Z" finished-at="2020-01-08T07:15:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:demo.TestngAnnotation@57baeedf]" name="afterMethod" is-config="true" duration-ms="0" started-at="2020-01-08T07:15:05Z" finished-at="2020-01-08T07:15:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:demo.TestngAnnotation@57baeedf]" name="afterClass" is-config="true" duration-ms="1" started-at="2020-01-08T07:15:05Z" finished-at="2020-01-08T07:15:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:demo.TestngAnnotation@57baeedf]" name="afterSuite" is-config="true" duration-ms="0" started-at="2020-01-08T07:15:05Z" finished-at="2020-01-08T07:15:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- demo.TestngAnnotation -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
