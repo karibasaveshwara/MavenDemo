@@ -2,15 +2,11 @@ package demo;
 
 import java.awt.AWTException;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.Test;
 
 import com.aventstack.extentreports.ExtentReports;
-import com.aventstack.extentreports.ExtentTest;
-import com.aventstack.extentreports.Status;
 import com.aventstack.extentreports.reporter.ExtentHtmlReporter;
-
-import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class GetFacebookPageTitle {
 	@Test
@@ -20,21 +16,20 @@ public class GetFacebookPageTitle {
 		ExtentReports extent= new ExtentReports();
 		
 		extent.attachReporter(htmlReporter);
-		ExtentTest test=extent.createTest("Facebook title", "Get the title of Facebook page");
-		WebDriverManager.firefoxdriver().setup();
-		//WebDriver driver= new ChromeDriver();
-		WebDriver driver=new FirefoxDriver();
+		System.setProperty("webdriver.chrome.driver", "C://Users//kt//Mavenjava//drivers//chromedriver.exe");
+		WebDriver driver= new ChromeDriver();
+		//WebDriver driver=new FirefoxDriver();
 		
 		driver.manage().window().maximize();
 		
 		driver.get("https://www.facebook.com");
-		test.log(Status.INFO, "Get URL");
+		//test.log(Status.INFO, "Get URL");
 		
 		System.out.println(driver.getTitle());
-		test.log(Status.INFO, "Get title");
+		//test.log(Status.INFO, "Get title");
 		Thread.sleep(2000);
 		driver.close();
-		test.log(Status.INFO, "Close driver");
+		//test.log(Status.INFO, "Close driver");
 		extent.flush();
 		
 	}

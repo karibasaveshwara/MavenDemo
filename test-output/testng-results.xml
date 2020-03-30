@@ -2,12 +2,12 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="70709" started-at="2020-03-30T06:57:21Z" finished-at="2020-03-30T06:58:31Z">
+  <suite name="Default suite" duration-ms="6891" started-at="2020-03-30T07:19:08Z" finished-at="2020-03-30T07:19:14Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="70709" started-at="2020-03-30T06:57:21Z" finished-at="2020-03-30T06:58:31Z">
+    <test name="Default test" duration-ms="6891" started-at="2020-03-30T07:19:08Z" finished-at="2020-03-30T07:19:14Z">
       <class name="demo.GetFacebookPageTitle">
-        <test-method status="PASS" signature="testGetFacebookPageTitle()[pri:0, instance:demo.GetFacebookPageTitle@4c70fda8]" name="testGetFacebookPageTitle" duration-ms="70690" started-at="2020-03-30T12:27:21Z" finished-at="2020-03-30T12:28:31Z">
+        <test-method status="PASS" signature="testGetFacebookPageTitle()[pri:0, instance:demo.GetFacebookPageTitle@4c70fda8]" name="testGetFacebookPageTitle" duration-ms="6873" started-at="2020-03-30T12:49:08Z" finished-at="2020-03-30T12:49:14Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testGetFacebookPageTitle -->
