@@ -25,6 +25,8 @@ public class GetFacebookPageTitle {
 		//WebDriver driver= new ChromeDriver();
 		WebDriver driver=new FirefoxDriver();
 		
+		driver.manage().window().maximize();
+		
 		driver.get("https://www.facebook.com");
 		test.log(Status.INFO, "Get URL");
 		
